@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="tc2.css">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div id="container">
+        Enter Amount on Bill.
+        <input type="number" id="amount" class="input-styling"></input>
+       
+        How was your Experience?
+        <div id="tip" class="input-styling">
+            <label for="experience">Choose your experience:</label> 
+            <select name="experience" id="experience">
+                <option value="Wonderful">Wonderful!</option>
+                <option value="Good">Good!</option>
+                <option value="Bad">Bad</option>
+            </select>
+        </div>
+        Tip Percentage is:
+        <input type="number" id="percentage" class="input-styling"></input>
+        Tip Amount is:
+        <input type="number" id="tipAmount" class="input-styling"></input>
+        Total Amount is:
+        <input type="number" id="total" class="input-styling"></input>
+        
+        <button id="btn">Calculate</button>
+    </div>
+    
+    <script src="tc2.js"></script>
+</body>
+
+</html>

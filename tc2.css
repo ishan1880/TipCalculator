@@ -1,0 +1,50 @@
+html{
+    background-color: #333232;
+    height: 100%;
+}
+#container{
+    height: 395px;
+    width: 350px;
+    background-color: #f5e4c3;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-template-areas: 
+    ". amount"
+    ". tip"
+    ". percentage"
+    ". tipAmount"
+    ". total"
+    "btn btn";
+    margin: 0 auto;
+    border: 5px solid #888169; 
+    padding: 25px;
+}
+
+#amount{
+grid-area: amount;
+}
+#tip{
+grid-area: tip;
+}
+#percentage{
+    grid-area: percentage;
+}
+#tipAmount{
+grid-area: tipAmount;
+}
+#total{
+grid-area: total;
+}
+
+.input-styling{
+    height: 25px;
+    width: 250px;
+}
+
+#btn{
+    grid-area: btn;
+    height: 25px;
+    width: auto;
+
+}
